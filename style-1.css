@@ -1,0 +1,319 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#main-header .container h1{
+    margin-top: 0;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 15px;
+    color: white;
+}
+
+.infinator{
+    display: inline;
+    color: lightskyblue;
+}
+
+#top{
+    background-color: #333333;
+    padding: 10px;
+    padding-top: 20px;
+    border-bottom: lightskyblue 5px solid;
+    color: white;
+    min-height: 60px;
+    margin-bottom: 0;
+}
+
+#navbar {
+    width: 40%;
+    padding: 0;
+    padding-bottom: 30px;
+    float: right;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover{
+    color: lightskyblue;
+}
+
+#current{
+    border-bottom: lightskyblue solid;
+    border-bottom-width: 7px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#navbar ul{
+    padding: 0;
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+#navbar li{
+    display: inline;
+    font-size: 20px;
+    padding: 0 30px 0 30px;
+}
+
+#showcase{
+    margin-top: 0;
+    background-image: url(../images/showcase.jpg);
+    width: 100%;
+    min-height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+#showcase h1{
+    font-family: 'Courgette', cursive;
+    font-size: 80px;
+    line-height: 1em;
+    color: khaki;
+}
+
+#showcase p{
+    color: white;
+    font-family: 'Srisakdi', cursive;
+    font-size: 20px;
+    line-height: 1.6em;
+    padding: 0 280px 0 280px;
+}
+
+#newsletter{
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    min-height: 60px;
+}
+
+#newsletter p{
+    float: left;
+    box-sizing: border-box;
+}
+
+#subscribe{
+    float: right;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#subscribe input{
+    width: 250px;
+    height: 30px;
+}
+
+#subscribe button{
+    height: 36px;
+    margin: 0;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+#boxes{
+    margin: 42px;
+}
+
+#boxes .box{
+    float: left;
+    width: 32%;
+    padding: 5px;
+    text-align: center;
+}
+
+.box-image{
+    width: 90px;
+}
+
+.main-footer{
+    background-color: lightskyblue;
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    padding: 6px 0 6px 0;
+}
+
+#services{
+    width: 65%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#services h2{
+    padding: 10px;
+}
+
+#sidebar{
+    background-color: #333333;
+    color: white;
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+#sidebar h2{
+    color: lightskyblue;
+}
+
+#sidebar #send{
+    height: 30px;
+    margin: 0;
+    margin-top: 8px;
+    background-color: lightskyblue;
+    color: black;
+    border: 0;
+    width: 40%;
+    min-width: 40%;
+}
+
+#sidebar .quote-input {
+    width: 90%;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+#sidebar textarea{
+    width: 90%;
+    max-width: 90%;
+    height: 50px;
+}
+
+.main-articles{
+    background-color: khaki;
+    padding: 20px;
+    margin: 10px;
+}
+
+@media (max-width: 1100px) {
+
+    #main-header .container h1{
+        float: none;
+        width: 100%;
+    }
+
+    #navbar{
+        float: none;
+        width: 100%;
+    }
+
+    #boxes .box{
+        float: none;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:900px) {
+
+    #services{
+        float: none;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    
+    #sidebar{
+        float: none;
+        width: 100%;
+    }
+
+    .clr{
+        clear: both;
+    }
+
+    #sidebar #send{
+        width: 90%;
+    }
+
+    #qoute form{
+        margin-right: 0;
+    }
+    
+    #main-header .container h1{
+        float: none;
+        width: 100%;
+    }
+
+    #navbar{
+        float: none;
+        width: 100%;
+    }
+    
+    #navbar li{
+    display: inline;
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+    }
+
+    #boxes .box{
+        float: none;
+        width: 100%;
+    }
+    
+    #showcase h1{
+        font-size: 50px;
+    }
+
+    #showcase p{
+        padding: 30px;
+    }
+
+    #newsletter p{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    #subscribe {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #subscribe input{
+        margin-bottom: 6px;
+    }
+    
+    #subscribe button{
+        width: 250px;
+    }
+    
+}
