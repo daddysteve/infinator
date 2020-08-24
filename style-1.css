@@ -94,7 +94,7 @@ h1, h2, h3 {
 
 #showcase{
     margin-top: 0;
-    background-image: url(../images/showcase.jpg);
+    background-image: url("showcase.jpg");
     width: 100%;
     min-height: 400px;
     background-position: center center;
